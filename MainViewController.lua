@@ -13,5 +13,7 @@ function tableView_cellForRowAtIndexPath(self, tableView, indexPath)
 end
 
 function tableView_numberOfRowsInSection(self,tableView,section)
-	return 5
+	local n = super:tableView_numberOfRowsInSection(self,tableView,section)
+
+	return n+10
 end

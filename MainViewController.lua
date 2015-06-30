@@ -15,7 +15,7 @@ end
 function tableView_numberOfRowsInSection(self,tableView,section)
 	local n = super:tableView_numberOfRowsInSection(self,tableView,section)
 
-	if n ~= nil
+	if n ~= nil then
 		return n+10
 	else
 		return 2

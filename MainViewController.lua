@@ -13,12 +13,6 @@ function tableView_cellForRowAtIndexPath(self, tableView, indexPath)
 end
 
 function tableView_numberOfRowsInSection(self,tableView,section)
-	local n = self:tableView_numberOfRowsInSection(self,tableView,section)
-
-	if n ~= nil then
-		return n+10
-	else
-		return 2
-	end
+	return 4
 
 end

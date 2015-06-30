@@ -19,4 +19,6 @@ function tableView_numberOfRowsInSection(self,tableView,section)
 		return n+10
 	else
 		return 2
+	end
+	
 end

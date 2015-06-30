@@ -7,7 +7,7 @@ function tableView_cellForRowAtIndexPath(self, tableView, indexPath)
 	cell:textLabel():setTextColor(UIColor:redColor())
 
 	local view = UIView:initWithFrame(CGRect(50,0,100,20))
-	view:setBackgroundColor(UIColor:yellowColro())
+	view:setBackgroundColor(UIColor:yellowColor())
 	cell:addSubview(view)
 	return cell
 end
